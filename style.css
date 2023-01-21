@@ -1,0 +1,66 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+.wrapper{
+  width: 1350px; 
+  margin: auto; 
+}
+
+header{
+  background: url(file:///Users/max/Desktop/maxhuang8.github.io/fp3.png); 
+  -webkit-background-size: cover; 
+  background-size: cover;   
+  height: 100vh;
+  position: relative; 
+} 
+
+.nav-area{
+  float: left; 
+  list-style: none; 
+  margin-top: 30px;
+}
+  
+.nav-area li{
+  display: inline-block;
+}
+
+.nav-area li a{
+  color: rgb(255, 162, 0); 
+  text-decoration: none;
+  padding: 5px 10px;
+  font-family: 'Unbounded', cursive;
+  font-size: 10px;
+}
+
+.nav-area li a:hover{
+  background: rgb(0, 0, 0); 
+  color: rgb(255, 162, 0); 
+}
+
+.welcome-text{
+  position: absolute;
+  width: 600px; 
+  height: 300px; 
+  margin: 26% 19%;
+} 
+
+.welcome-text h1{
+  text-align: left;
+  color: rgb(255, 162, 0); 
+  text-transform: uppercase;
+  font-family: 'Unbounded', cursive;
+  font-size: 30px;
+}
+
+.welcome-text h2{ 
+  text-decoration: none;
+  line-height: 1cm;
+  text-transform: uppercase; 
+  font-family: 'Bodoni Moda', serif;
+  font-size: 9px;
+  margin-top: 20px;
+  color: #fff; 
+  text-align: left; 
+}
