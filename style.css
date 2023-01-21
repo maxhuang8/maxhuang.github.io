@@ -39,6 +39,48 @@ header{
   color: rgb(255, 162, 0); 
 }
 
+.media {
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: center;
+  padding: 10px; 
+  flex-wrap: nowrap;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+.fa {
+  padding: 5;
+  width: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #d62976;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0072b1; 
+  color: white; 
+} 
+
 .welcome-text{
   position: absolute;
   width: 600px; 
